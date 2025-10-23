@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, Upload, Share2, CheckCircle2 } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import { Requirements } from "@/components/Requirements";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Landing = () => {
@@ -103,6 +104,9 @@ const Landing = () => {
           </div>
         </div>
       </section>
+
+      {/* Requirements Section */}
+      <Requirements />
 
       {/* CTA Section */}
       <section className="py-20 px-4">
